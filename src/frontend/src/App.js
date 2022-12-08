@@ -12,7 +12,7 @@ import {
     Badge,
     Avatar,
     Radio,
-    Popconfirm, Image
+    Popconfirm, Image, Divider
 } from 'antd';
 import {
     DesktopOutlined,
@@ -227,6 +227,13 @@ function App() {
                     src="https://user-images.githubusercontent.com/113166125/205463635-532e65e0-cab5-4715-afd5-b08fc4171569.png"
                     />
                 Happy coding ©2022 Created by Noureddine El Hamdani
+                <Divider>
+                    <a
+                        target={"_blank"}
+                        href="https://github.com/noureddineelhamdani">
+                        Click here to access my profil in GitHub
+                    </a>
+                </Divider>
                 </Footer>
         </Layout>
     </Layout>
